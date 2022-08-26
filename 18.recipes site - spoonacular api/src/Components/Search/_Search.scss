@@ -1,0 +1,26 @@
+.search-container {
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+    svg {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 8%;
+        margin: auto;
+        color: var(--clr-grey-8);
+    }
+
+    input {
+        width: 100%;
+        background: linear-gradient(35deg, rgb(70, 60, 60), black);
+        padding: 0.5rem 3rem;
+        outline: none;
+        border: none;
+        border-radius: 1rem;
+        color: var(--clr-grey-8);
+        
+    }
+}

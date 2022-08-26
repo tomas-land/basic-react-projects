@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.App {
+  margin: auto;
+  max-width: 50vw;
+}
+
+.App .review-section .review-title {
+  text-align: center;
+}
+
+.App .review-section .review-title span {
+  color: #d47137;
+  margin-right: 1rem;
+}
+
+.App .review-section .review-title h1 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.App .review-section .review-slider {
+  position: relative;
+  height: 30rem;
+}
+
+.App .review-section .review-slider .slide {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.App .review-section .review-slider .slide .slide-image {
+  width: 12rem;
+  height: 12rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid lightgrey;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.App .review-section .review-slider .slide .slide-name {
+  text-transform: capitalize;
+  color: #d47137;
+  margin-bottom: 0;
+}
+
+.App .review-section .review-slider .slide .slide-title {
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.App .review-section .review-slider .slide .slide-quote {
+  text-align: center;
+  line-height: 2;
+  color: gray;
+}
+
+.App .review-section .review-slider .slider-btn {
+  background-color: #d47137;
+  color: lightgrey;
+  border: none;
+  padding: 0.5rem;
+  position: absolute;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .review-section .review-slider .right {
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.App .review-section .review-slider .left {
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.App .review-section .review-slider .activeSlide {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.App .review-section .review-slider .prevSlide {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.App .review-section .review-slider .nextSlide {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+/*# sourceMappingURL=App.css.map */

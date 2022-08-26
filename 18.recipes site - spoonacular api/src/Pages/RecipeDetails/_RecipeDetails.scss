@@ -1,0 +1,72 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+
+    .image-container {
+
+
+        img {
+            border-radius: 1rem;
+            width: 100%;
+        }
+
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--clr-grey-3);
+
+        .badge {
+            padding: 0.1rem 1rem;
+            border-radius: 0.5rem;
+            background-color: rgb(215, 221, 226);
+        }
+
+        .info-title {
+            padding: 1rem 0;
+        }
+
+        .info-healthy-bar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .info-btn-container {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+
+            button {
+                font-family: inherit;
+                padding: 0.5rem 4rem;
+                background: rgb(51, 51, 51);
+                color: white;
+                letter-spacing: 0.1rem;
+                cursor: pointer;
+
+                // &:hover {
+                //     background: rgb(78, 78, 78);
+
+                // }
+            }
+
+            .active {
+                background: white;
+                border: 2px solid rgb(46, 46, 46);
+                color: black;
+            }
+
+        }
+
+        .info-wrapper {
+            width: 90%;
+        }
+    }
+}
