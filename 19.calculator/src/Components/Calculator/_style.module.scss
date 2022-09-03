@@ -1,0 +1,74 @@
+@import './../../Styles/_variables';
+
+.calculator {
+    background-color: $primary-dark;
+    width: 30rem;
+    height: 80vh;
+    padding: 2rem;
+    border-radius: 50px;
+    background: $primary;
+    box-shadow: 20px 20px 60px #697e76,
+        -20px -20px 60px #8daaa0;
+
+    &__display {
+        margin: auto;
+        margin-bottom: 2rem;
+        //---------------
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: $primary-medium-dark;
+        font-size: 2rem;
+        font-weight: 600;
+        width: 100%;
+        height: 10rem;
+        background-color: $primary-light;
+        border-radius: $border-radius;
+        position: relative;
+
+        &__first_input {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            color: $primary-dark2;
+        }
+
+        &__second_input {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            color: $primary-dark2;
+        }
+
+        &__mathSymbol {
+            color: $primary-dark2;
+            position: absolute;
+            top: calc(50% - 1rem);
+        }
+
+        &__result {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            color: $primary-dark2;
+        }
+
+        // input {
+        //     width: 100%;
+        //     height: 8rem;
+        //     background-color: $primary-light;
+        //     outline: none;
+        //     border: none;
+        //     border-radius: $border-radius;
+
+        // }
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+
+    }
+}

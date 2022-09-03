@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,mEAAI;AACZ,OAAO,CAAC,2HAAI;AACZ,OAAO,CAAC,gLAAI;AFkDZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,MAAM;CAGxB;;AAED,AAAA,IAAI,CAAC;EACJ,gBAAgB,EEjDP,OAAO;EFkDhB,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAEnB",
+    "sources": [
+        "App.scss",
+        "_normalize.scss",
+        "_variables.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

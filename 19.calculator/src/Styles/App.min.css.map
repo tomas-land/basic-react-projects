@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,mEAAI,CACZ,OAAO,CAAC,2HAAI,CACZ,OAAO,CAAC,gLAAI,CFkDZ,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACtB,eAAe,CAAE,MAAM,CAGxB,AAED,AAAA,IAAI,AAAC,CACJ,gBAAgB,CEjDP,OAAO,CFkDhB,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CAEnB",
+    "sources": [
+        "App.scss",
+        "_normalize.scss",
+        "_variables.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "App.min.css"
+}
