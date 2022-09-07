@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+//fonts
+$font-roboto: 'Roboto',
+sans-serif;
+$font-montserrat: 'Montserrat',
+sans-serif;
+$font-lobster: 'Lobster',
+sans-serif;
+
+//colors
+$primary :#7b948b;
+$primary-medium-dark :#738a81;
+$primary-dark :rgb(49, 58, 55);
+$primary-dark2 :rgb(78, 92, 87);
+$primary-light :rgb(134, 160, 151);
+$gray1 :hsl(209, 61%, 16%);
+$gray2 :hsl(211, 39%, 23%);
+$gray3 :hsl(209, 34%, 30%);
+$gray4 :hsl(209, 28%, 39%);
+
+//spacing
+
+// misc
+$transition:all 0.3s linear;
+$border-radius: 1rem;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
